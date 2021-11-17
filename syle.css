@@ -21,16 +21,68 @@ body{
 .sidebar{
     display: inline-block;
     height: calc(100vh - 100px);
-    width: 200px;
+    width: 250px;
     background-color: black;
 }
 
 .sideinfo{
-    width: 150px;
+    width: 200px;
+    color: lightgray;
 }
 
 .sideinfo p{
     color: white;
+    margin: 10px;
+}
+.personalinfo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.home, .search, .library{
+    color: white;
+    margin-top: 10px;
+}
+
+.playlist{
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 0px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+b .playlist{
+    padding-left: 20px;
+}
+
+.add-playlist{
+    display: flex;
+    color: lightgray;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.playlistbutton{
+    padding-left: 0px;
+}
+
+.playlistnames{
+    width: 100%;
+    padding: 15px;
+}
+
+.playlistnames div{
+    padding-left: 0px;
+    padding-top: 15px;
 }
 
 .upgrade{
@@ -38,7 +90,7 @@ body{
     align-items: center;
     justify-content: right;
     float: right;
-    width: calc(100% - 200px);
+    width: calc(100% - 250px);
     height: 100px;
     background-color: #080B12;
 }
@@ -54,9 +106,23 @@ footer{
 }
 
 .logo{
+    font-size: 40px;
     margin: 20px;
     width: 150px;
     height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin-top: 20px;
+}
+
+
+.logo img{
+    display: flex;
+    float: left;
+    padding-top: 10px;
 }
 
 .area{
@@ -97,6 +163,12 @@ footer{
 
 .right{}
 
+
+
+
+
+
+
 /* BUTTONS */
 
 .button{
@@ -125,12 +197,48 @@ footer{
     color: #080B12 ;
 }
 
+.sidebutton{
+    background: black;
+    color: lightgray;
+    transition: .5s;
+    padding: 5px;
+    padding-left: 20px;
+    width: 100%;
+}
 
+.sidebutton:hover{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+    border-left: green 5px solid;
+    color: white;
+}
 
+.playlistbutton{
+    background: black;
+    color: lightgray;
+    padding-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-left: 0px;
+    transition: .5s;
+}
 
+.playlistbutton:hover{
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+    color: white;
+}
 
-
-
+.playlistnames div:hover{
+    font-weight: bold;
+    color: white;
+    transition: .2s;
+}
 /* IMAGES */
 
 .logo img{
