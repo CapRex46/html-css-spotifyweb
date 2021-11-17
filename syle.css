@@ -29,6 +29,10 @@ body{
     width: 150px;
 }
 
+.sideinfo p{
+    color: white;
+}
+
 .upgrade{
     display: flex;
     align-items: center;
@@ -44,24 +48,22 @@ footer{
     height: 100px;
     width: 100%;
     background: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.logo{
+    margin: 20px;
+    width: 150px;
+    height: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.area{
+    width: 25%;
+    height: 50%;
+    background: white;
+}
 
 
 
@@ -92,4 +94,17 @@ footer{
     background: white;
     transition: .5s;
     color: #080B12 ;
+}
+
+
+
+
+
+
+
+/* IMAGES */
+
+.logo img{
+    width: 50px;
+    height: 50px;
 }
