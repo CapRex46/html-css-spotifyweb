@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* DIMENSIONS */
@@ -83,6 +83,24 @@ b .playlist{
 .playlistnames div{
     padding-left: 0px;
     padding-top: 15px;
+}
+
+div.playlistnames{
+  overflow-y: scroll;
+}
+
+.username{
+    margin-top: 50px;
+    color: lightgray;
+    margin-left: 20px;
+}
+
+.username div{
+    margin-top: 20px;
+}
+
+.fa-user-circle{
+    padding-right: 10px;
 }
 
 .upgrade{
@@ -239,6 +257,22 @@ footer{
     color: white;
     transition: .2s;
 }
+
+.john{
+    background: black;
+    color: lightgray;
+    transition: .5s;
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.john:hover{
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+}
+
 /* IMAGES */
 
 .logo img{
