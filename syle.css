@@ -26,10 +26,26 @@ div.mainscroll{
     overflow-y: auto;
 }
 
+div.mainscroll::-webkit-scrollbar{
+    width: 5px;
+}
+
+div.mainscroll::-webkit-scrollbar-track{
+    background: #141922;
+}
+
+div.mainscroll::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    border: 3px solid rgba(211, 211, 211, 0.651)
+}
+
+div.mainscroll::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
 .mainscroll{
     color: lightgray;
 }
-
 
 .mainscroll, h2 h3{
     color: white;
@@ -52,7 +68,7 @@ div.mainscroll{
     margin: 20px;
     padding: 20px;
     width: calc(100% - 40px);
-    height: 350px;
+    height: 320px;
     background-color:#141922;
 }
 
@@ -74,6 +90,24 @@ div.mainscroll{
 div.covers:first-of-type{
     overflow-x: auto;
 }
+
+div.covers::-webkit-scrollbar{
+    height: 8px;
+}
+
+div.covers::-webkit-scrollbar-track{
+    background: #141922;
+}
+
+div.covers::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: rgba(211, 211, 211, 0.651);
+}
+
+div.covers::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
 
 .mix{
     display: flex;
@@ -186,6 +220,26 @@ div.playlistnames{
     height: 400px;
     overflow-y: auto;
 }
+
+div.playlistnames::-webkit-scrollbar{
+    width: 5px;
+    padding-right: 5px;
+}
+
+div.playlistnames::-webkit-scrollbar-track{
+    background: black;
+}
+
+div.playlistnames::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    border: 3px solid rgba(211, 211, 211, 0.651)
+}
+
+div.playlistnames::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+
 
 .username{
     margin-top: 8px;
