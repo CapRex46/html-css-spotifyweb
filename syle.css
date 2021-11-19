@@ -152,6 +152,7 @@ div.covers::-webkit-scrollbar-thumb:hover{
     float: left;
     width: 250px;
     background-color: black;
+    overflow: hidden;
 }
 
 .sideinfo{
@@ -218,6 +219,7 @@ div.playlistnames{
     margin-top: 20px;
     width: 250px;
     height: 400px;
+    min-height: 150px;
     overflow-y: auto;
 }
 
